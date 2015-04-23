@@ -22,12 +22,16 @@ The program is best run and built using Visual Studio.  Input is processed throu
 ### Examples
 * Create a new account
 	bank --create
+
 * Deposit $20 into account e2405331
 	bank --deposit e2405331 --amount 20
+
 * List the balance of account e2405331 on 1/4/2015 in Euros
 	bank --balance e2405331 --euro --date 1/4/2015  
+
 * List the top 5 accounts with the highest balances
 	bank -t
+
 
 Design
 ------
