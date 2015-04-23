@@ -3,8 +3,8 @@ A simple command line app that simulates bank transactions.
 
 Usage
 ------
-The program is best run and built using Visual Studio.  Input is processed through command line arguments passed through the
-"bank.exe" executable.
+The program is best run and built using Visual Studio.  Input is processed through command line arguments passed through the "bank.exe" executable.
+
 ### Arguments
   -a, --amount      (Default: 0) The amount of the transaction
   -n, --date        Specify a date for displaying the balance of an account (mm/dd/yyyy format)
@@ -31,6 +31,7 @@ The program is best run and built using Visual Studio.  Input is processed throu
 
 Design
 ------
+
 ### Environment
 This program has been successfully tested on Windows 8 running Visual Studio 2013 version "12.0.31101.00 Update 4"
  and with the .NET runtime of "Version 4.5.51641".  Additional packages managed by Nuget version "2.8.50926.663".  
