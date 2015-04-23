@@ -6,6 +6,7 @@ Usage
 The program is best run and built using Visual Studio.  Input is processed through command line arguments passed through the "bank.exe" executable.
 
 ### Arguments
+
   -a, --amount      (Default: 0) The amount of the transaction
   -n, --date        Specify a date for displaying the balance of an account (mm/dd/yyyy format)
   -d, --deposit     Deposit money into an account
@@ -21,15 +22,19 @@ The program is best run and built using Visual Studio.  Input is processed throu
 
 ### Examples
 * Create a new account
+
 	bank --create
 
 * Deposit $20 into account e2405331
+
 	bank --deposit e2405331 --amount 20
 
 * List the balance of account e2405331 on 1/4/2015 in Euros
+
 	bank --balance e2405331 --euro --date 1/4/2015  
 
 * List the top 5 accounts with the highest balances
+
 	bank -t
 
 
